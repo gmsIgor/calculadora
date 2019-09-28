@@ -18,13 +18,17 @@ def menu():
     opcao = int(input('[digite -1 para sair]-(: '))
 
 def main():
-    menu()
+    return 
+    #menu()
 
 main()
 
 
 def debug():
     mult = mat.multiplicacao(3,3)
-    print(mult)
+    print(mult, 'mult')
 
-#debug()
+    div = mat.divivisao(40,2)
+    print(div, 'div')
+
+debug()
